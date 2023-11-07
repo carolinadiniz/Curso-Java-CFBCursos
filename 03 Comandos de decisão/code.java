@@ -16,6 +16,11 @@ public class code{
         else{
             System.out.println("Reprovado(a)");
         }
-        System.out.println("Fim do programa");        
+        System.out.println("Fim do programa\n\n");    
+        
+        
+        // Operação Condicional Ternária
+        String res = nota >= media ? "Aprovado" : "Reprovado";
+        System.out.printf("Nota: %d%nMedia: %d%nResultado: %s", nota, media, res);
     }
 }
