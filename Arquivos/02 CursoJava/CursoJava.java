@@ -7,7 +7,11 @@ public class CursoJava{
 
         // Declaração de variável sem inicialização
         // Obs: tentei compilar sem incializar a variavel, porém deu erro. Pesquisando sobre o motivo, descobri que todas variáveis devem ser inicializadas antes de serem usadas.
-        int num=0;
-        System.out.printf("Valor da variavel num:%d", num);
+        int num=24;
+        String nome= "Carol";
+
+        System.out.printf("\nNome: %s%nIdade: %d",nome, num);
+
+
     }
 }
