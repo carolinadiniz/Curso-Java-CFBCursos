@@ -17,6 +17,6 @@ public class CursoJava{
         int n1=10, n2=20, n3=30, res;
         res = n1+n2+n3;
 
-        System.out.printf("A soma de %d + %d + %d é igual à: %d", n1, n2, n3, res);
+        System.out.printf("\nA soma de %d + %d + %d é igual à: %d", n1, n2, n3, res);
     }
 }
