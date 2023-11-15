@@ -1,9 +1,5 @@
 # Curso-Java-CFBCursos
-<<<<<<< Updated upstream
-Repositório para o curso de Java do canal do YouTube CFBCursos
-=======
 Criei este repositório para guardar os códigos criados durante o curso de Java no canal CFBCursos.
-
 
 
 ## Lista de aulas
@@ -20,4 +16,3 @@ Criei este repositório para guardar os códigos criados durante o curso de Java
 |Aula 08|Matrizes                 |
 |Aula 09|Métodos em Java          |
 |Aula 10|Aprendendo sobre classes |
->>>>>>> Stashed changes
