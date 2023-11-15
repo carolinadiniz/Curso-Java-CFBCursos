@@ -1,13 +1,20 @@
 public class Time {
-    Jogador[] jogadores;
+    final Jogador[] jogadores;
+    final String nomeTime;
 
-    public Time(String[] arrayNomes) {
+    public Time(String nTime, String[] arrayNomes) {
+        
+        nomeTime = nTime;
 
         jogadores = new Jogador[arrayNomes.length];
 
         for(int i=0; i < arrayNomes.length; i++) {
             jogadores[i] = new Jogador(i, arrayNomes[i]);
         }
+    }
+
+    public String getName() {
+        return nomeTime;
     }
 
 

@@ -3,16 +3,13 @@ public class Main {
     public static void main(String[] args) {
 
         final String[] arrayNomesVasco = {"Sara", "Akali", "Carolina"};
-        final String[] arrayNomesFlamengo = {"Preda", "Arroba", "Fulano"};
+        final String[] arrayNomesFlamengo = {"Pedra", "Poste", "Cadeira"};
 
-        Time vasco = new Time( arrayNomesVasco);
-        Time flamengo = new Time( arrayNomesFlamengo);
+        Time vasco = new Time("Vasco", arrayNomesVasco);
+        Time flamengo = new Time("Flamengo", arrayNomesFlamengo);
         
-        System.out.println("ESCALACAO DO TIME DO VASCO:");
-        vasco.imprimirTime();
-
-        System.out.println("\nESCALACAO DO TIME DO FLAMENGO:");
-        flamengo.imprimirTime();
+        Partida brasileirao = new Partida(vasco, flamengo);
         
+        brasileirao.jogarPartida();
     }
 }
