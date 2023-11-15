@@ -2,13 +2,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        Jogador player1 = new Jogador(3, "Sara");
-        Jogador player2 = new Jogador(7, "Akali");
-        Jogador player3 = new Jogador(21, "Carolina");
+        final String[] arrayNomesVasco = {"Sara", "Akali", "Carolina"};
+        final String[] arrayNomesFlamengo = {"Preda", "Arroba", "Fulano"};
 
-        System.out.println(player1.getNome());
-        System.out.println(player2.getNome());
-        System.out.println(player3.getNome());
+        Time vasco = new Time( arrayNomesVasco);
+        Time flamengo = new Time( arrayNomesFlamengo);
+        
+        System.out.println("ESCALACAO DO TIME DO VASCO:");
+        vasco.imprimirTime();
+
+        System.out.println("\nESCALACAO DO TIME DO FLAMENGO:");
+        flamengo.imprimirTime();
         
     }
 }
