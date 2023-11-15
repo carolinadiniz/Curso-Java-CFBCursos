@@ -2,6 +2,7 @@
 Repositório para o curso de Java do canal do YouTube CFBCursos
 
 |AULAS  | Título                  |
+|-------|-------------------------|
 |Aula 01|Primeiro programa em java|
 |Aula 02|Impressão e variáveis    |
 |Aula 03|Comandos de decisão      |
