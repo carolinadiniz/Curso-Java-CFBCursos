@@ -1,0 +1,8 @@
+Crie uma classe chamada Pessoa que tenha os atributos private nome, idade e altura. 
+Crie os métodos public get e set para cada atributo. 
+Crie um método public chamado imprimir que mostre os valores dos atributos na tela. 
+Crie uma classe chamada Aluno que herde de Pessoa e tenha o atributo private matricula. 
+Crie o método get e set para o atributo matricula. 
+Crie um método public chamado imprimir que mostre os valores dos atributos de Pessoa e de Aluno na tela. 
+Crie uma classe principal que instancie um objeto da classe Aluno e atribua valores aos seus atributos usando os métodos set. 
+Chame o método imprimir do objeto.
