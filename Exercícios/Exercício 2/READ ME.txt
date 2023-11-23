@@ -1,0 +1,9 @@
+Crie uma classe chamada Conta que tenha os atributos private numero, saldo e limite. 
+Crie os métodos public get e set para cada atributo. 
+Crie um método public chamado depositar que receba um valor como parâmetro e adicione ao saldo. 
+Crie um método public chamado sacar que receba um valor como parâmetro e subtraia do saldo, se o valor for menor ou igual ao saldo mais o limite. 
+Crie uma classe chamada ContaPoupanca que herde de Conta e tenha o atributo private taxa. 
+Crie o método get e set para o atributo taxa. 
+Crie um método public chamado render que multiplique o saldo pela taxa e adicione ao saldo. 
+Crie uma classe principal que instancie um objeto da classe ContaPoupanca e atribua valores aos seus atributos usando os métodos set. 
+Chame os métodos depositar, sacar e render do objeto e mostre o saldo final na tela.
