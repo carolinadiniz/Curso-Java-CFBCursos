@@ -1,30 +1,24 @@
 public class Main {
     public static void main(String[] args) {
         
-        int n1, n2, res;
-        String op = "+";
+        int nota=8;
+        String res="";
 
-        n1=10; n2=5; res=0;
-        
-
-        switch(op) {
-            case "+": 
-                res = n1 + n2;
+        switch(nota) {
+            case 10: case 9: case 8: case 7: 
+                res = "Aprovado";
                 break;
-            case "-":
-                res = n1 - n2;
+            case 6: case 5: case 4:
+                res = "Recuperação";
                 break;
-            case "*":
-                res = n1 * n2;
-                break;
-            case "/":
-                res = n1 / n2;
+            case 3: case 2: case 1: case 0:
+                res = "Reprovado";
                 break;
             default:
-                System.out.printf("%s%n", "Operador invalido");
+                res = "Nota inválida";
                 break;
         }
 
-        System.out.printf("Operacao:%s : Resultado:%d%n", op, res);
+        System.out.printf("Resultado:%s%n", res);
     }
 }
