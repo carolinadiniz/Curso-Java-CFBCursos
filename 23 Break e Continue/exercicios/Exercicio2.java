@@ -8,7 +8,8 @@ public class Exercicio2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int value;
-        int soma = 0;
+        int somaPositivos = 0;
+        int quantidadeNegativos = 0;
 
         while(true) {
             System.out.print("Digite um numero: ");
@@ -16,10 +17,15 @@ public class Exercicio2 {
 
             if(value == -1) break;
 
-            soma += value;
+            if(value > 0) {
+                somaPositivos += value;
+            } else {
+                quantidadeNegativos++;
+            }
         }
 
-        System.out.printf("A soma destes valores e igual a: %d", soma);
+        System.out.printf("A soma dos números positivos é igual a: %d\n", somaPositivos);
+        System.out.printf("A quantidade de números negativos é igual a: %d\n", quantidadeNegativos);
 
     }
 }
